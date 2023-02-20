@@ -1,0 +1,38 @@
+* {
+   font-family: myFirstFont; /* تعریف این فونت در پایین در فونت-فیس انجام شده */
+   box-sizing: border-box; /*برای اینکه سایز پدینگ جدا حساب نشه */
+   margin: 0%;    /*برای اینکه حاشیه ای بین المنت ها با صفحه نباشه*/
+}
+
+/* body {
+   margin: 0%;    برای اینکه حاشیه ای بین المنت ها با صفحه نباشه
+} */
+.home { /*این کلاس توی هوم.جی اس تعریف شده*/
+   /*background-image: url('./images/img-2.jpg'); این ویژگی ها در آینده باید بازنگری بشه */
+   padding-top: 180px;
+   text-align: center;
+   height: 97vh;
+   font-size: 2rem;
+   background-size: cover;
+}
+
+.home p {
+   font-size: 1.3rem;
+   line-height: 45px;
+   
+}
+
+.glass h1 {
+   text-align: center;
+   padding:0px;
+}
+.glass .persia {
+   direction: rtl;
+}
+
+/* اضافه کردن فونت فارسی مناسب به کل المنت ها */
+@font-face {
+    font-family: myFirstFont;
+    src: url('kkk.ttf');
+ }
+
